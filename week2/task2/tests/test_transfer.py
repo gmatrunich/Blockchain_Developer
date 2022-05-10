@@ -86,3 +86,4 @@ def test_mint(accounts, token):
     balance_after = token.balanceOf(accounts[0])
 
     assert balance_after - balance_before == 10**18
+
